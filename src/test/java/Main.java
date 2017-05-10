@@ -9,7 +9,7 @@ public class Main {
 
     @Test
     public void Test() {
-        System.setProperty("webdriver.chrome.driver","/Users/wkdu/HeadlessChrome/env/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/xxx/HeadlessChrome/env/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.setBinary("/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary");
         options.addArguments("headless");
